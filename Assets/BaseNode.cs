@@ -16,7 +16,7 @@ public class BaseNode : Node {
 	}
 	public virtual Ability getAbility()
 	{
-		return Ability.PERCEPTION;
+		return Ability.INTELLIGENCE;
 	}
 	public virtual float getDC()
 	{

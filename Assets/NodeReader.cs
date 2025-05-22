@@ -32,6 +32,7 @@ public class NodeReader : MonoBehaviour
 
     void Start()
     {
+
         currentNode = GetStartNode();
         AdvancedDialog();
     }
@@ -42,7 +43,8 @@ public class NodeReader : MonoBehaviour
     }
 
     public void DisplayNode(BaseNode node)
-    {
+    {       
+
         dialog.text = node.getDialogText();
         backgroundImage = node.getSprite();
         ImageGO.gameObject.GetComponent<Image>().sprite = backgroundImage;

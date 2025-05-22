@@ -56,5 +56,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "NodeBackup.sln"
+    "dotnet.defaultSolution": "TTRPGVG.sln"
 }
