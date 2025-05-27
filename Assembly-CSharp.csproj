@@ -77,6 +77,7 @@
     <Compile Include="Assets\StartNode.cs" />
     <Compile Include="Assets\SimpleDialog.cs" />
     <Compile Include="Assets\AbilityCheckNode.cs" />
+    <Compile Include="Assets\AudioManager.cs" />
     <Compile Include="Assets\MultipleChoice3Dialog.cs" />
   </ItemGroup>
   <ItemGroup>
