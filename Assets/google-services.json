@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "633704402255",
+    "project_id": "brokencovenant-cabc9",
+    "storage_bucket": "brokencovenant-cabc9.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:633704402255:android:c2ce08da821f0a620e893a",
+        "android_client_info": {
+          "package_name": "com.BrokenCovenant"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9HkmISWxg4uKaFK91YXDzdl0GoFsszjA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
