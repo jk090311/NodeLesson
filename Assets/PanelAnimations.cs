@@ -16,4 +16,8 @@ public class PanelAnimations : MonoBehaviour
     public void CloseCharChoosePanel(Animator animator) => animator.SetBool("IsCharOpen", false);
     public void OpenExitPanel(Animator animator) => animator.SetBool("IsExitOpen", true);
     public void CloseExitPanel(Animator animator) => animator.SetBool("IsExitOpen", false);
+    public void OpenMainMenuPanel(Animator animator) => animator.SetBool("IsSignInOpen", true);
+    public void CloseMainMenuPanel(Animator animator) => animator.SetBool("IsSignInOpen", false);
+    public void OpenGuestPanel(Animator animator) => animator.SetBool("IsGuestOpen", true);
+    public void CloseGuestPanel(Animator animator) => animator.SetBool("IsGuestOpen", false);
 }

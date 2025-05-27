@@ -1107,7 +1107,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -2082, y: 1238}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &242892961
@@ -2434,6 +2434,7 @@ GameObject:
   - component: {fileID: 585569147}
   - component: {fileID: 585569149}
   - component: {fileID: 585569148}
+  - component: {fileID: 585569150}
   m_Layer: 5
   m_Name: PlayGuest
   m_TagString: Untagged
@@ -2502,6 +2503,27 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 585569146}
   m_CullTransparentMesh: 1
+--- !u!95 &585569150
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 585569146}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: e2b0243adb567b44c9f49d58935aae20, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &595285928
 GameObject:
   m_ObjectHideFlags: 0
@@ -4136,7 +4158,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1178399003}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1627570708}
+        m_TargetAssemblyTypeName: PanelAnimations, Assembly-CSharp
+        m_MethodName: CloseMainMenuPanel
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1321237824}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Animator, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1178399003
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4348,7 +4382,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -4329, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1321237822
@@ -4399,7 +4433,7 @@ Animator:
   m_GameObject: {fileID: 1321237820}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 84f938a3e9564c142bb4c4493ed2d58d, type: 2}
+  m_Controller: {fileID: 9100000, guid: 7699f666f0567f1468041abb31793777, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -4491,7 +4525,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1330735870}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1627570708}
+        m_TargetAssemblyTypeName: PanelAnimations, Assembly-CSharp
+        m_MethodName: OpenGuestPanel
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 585569150}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Animator, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1330735870
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6522,7 +6568,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1870977243}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1627570708}
+        m_TargetAssemblyTypeName: PanelAnimations, Assembly-CSharp
+        m_MethodName: CloseGuestPanel
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 585569150}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Animator, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1870977243
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7310,7 +7368,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2138592242}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1627570708}
+        m_TargetAssemblyTypeName: PanelAnimations, Assembly-CSharp
+        m_MethodName: OpenMainMenuPanel
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1321237824}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Animator, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2138592242
 MonoBehaviour:
   m_ObjectHideFlags: 0
