@@ -73,6 +73,7 @@
     <Compile Include="Assets\CharacterStats.cs" />
     <Compile Include="Assets\SimpleDialogV2.cs" />
     <Compile Include="Assets\BackgroundMusic.cs" />
+    <Compile Include="Assets\PanelAnimations.cs" />
     <Compile Include="Assets\StartNode.cs" />
     <Compile Include="Assets\SimpleDialog.cs" />
     <Compile Include="Assets\AbilityCheckNode.cs" />
